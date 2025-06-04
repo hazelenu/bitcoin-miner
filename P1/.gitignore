@@ -1,0 +1,6 @@
+miner
+client
+server
+.DS_Store
+*.sh
+*.txt
