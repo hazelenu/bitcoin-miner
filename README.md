@@ -45,3 +45,20 @@ Use `srunner` and `crunner` to test early LSP implementations
 - `app/`: CMUD game client to test your store
 - `srunner` / `crunner`: runner tools for quick testing
 
+## 💻 Tech Stack
+
+- **Language:** Go (Golang) 1.23  
+- **Concurrency & Threads:** Goroutines, Channels, Epoch-based timeouts  
+- **Networking:** UDP Sockets, Custom LSP Protocol, RPC (used in Raft & Actor model)  
+- **Distributed Algorithms:**  
+  - P1: Lightweight Session Protocol (LSP) for reliable communication  
+  - P2: Raft Consensus Protocol for leader election and log replication  
+  - P3: Actor Model for distributed key-value store coordination  
+- **CLI Tools & Utilities:** Netcat (`nc`), custom `srunner` / `crunner`, `cmud` interactive game client  
+- **Documentation:** `godoc` for local API browsing  
+- **Deployment / Environment:** Local Linux/macOS dev, AFS cluster machines (CMU), WSL2 for Windows
+
+
+## 👩‍💻 Author
+Hazel Li
+
